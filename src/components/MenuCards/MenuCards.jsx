@@ -13,7 +13,7 @@ const MenuCards = ({handleCook}) => {
     },[]);
 
     return (
-        <div className="grid grid-cols-2 gap-6 w-[60%]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 lg:w-[60%]">
             {
                 cards.map((card) => <SingleCard key={card.recipe_id} card={card} handleCook={handleCook}></SingleCard>)
             }

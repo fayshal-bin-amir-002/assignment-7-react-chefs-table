@@ -32,16 +32,16 @@ function App() {
 
   return (
     <>
-      <header className="container mx-auto mb-24">
+      <header className="container mx-auto mb-12 lg:mb-24">
         <NavBar></NavBar>
         <Banner></Banner>
       </header>
-      <main className="container mx-auto mb-24">
-        <div className="mb-12 w-2/3 mx-auto text-center">
+      <main className="container mx-auto px-5 mb-12 lg:mb-24">
+        <div className="mb-6 lg:mb-12 lg:w-2/3 mx-auto text-center">
           <h2 className="text-4xl font-semibold mb-6">Our Recipes</h2>
           <p className="opacity-70">Indulge in our signature recipe, a culinary delight crafted with passion and expertise, promising a delectable dining experience.</p>
         </div>
-        <div className="flex gap-6">
+        <div className="flex flex-col lg:flex-row gap-6">
           <MenuCards handleCook={handleCook}></MenuCards>
           <SideBar cookingCard={cookingCard} handlePreparing={handlePreparing} currentCookingCard={currentCookingCard}></SideBar>
         </div>
