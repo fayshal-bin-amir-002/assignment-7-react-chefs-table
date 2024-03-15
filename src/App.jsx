@@ -3,11 +3,14 @@ import Banner from "./components/Header/Banner"
 import NavBar from "./components/Header/NavBar"
 import MenuCards from "./components/MenuCards/MenuCards"
 import SideBar from "./components/SideBar/SideBar"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
 
   const [cookingCard, setCookingCard] = useState([]);
+  const [currentCookingCard, setCurrentCookingCard] = useState([]);
 
   const handleCook = (card) => {
     const isExist = cookingCard.find((c) => c.recipe_id === card.recipe_id);
@@ -15,6 +18,16 @@ function App() {
       const newCard = [...cookingCard, card];
       setCookingCard(newCard);
     }
+    else {
+      toast.error("Already added for cooking");
+    }
+  }
+
+  const handlePreparing = (card) => {
+    const cookingItem = cookingCard.filter((c) => c.recipe_id !== card.recipe_id);
+    setCookingCard(cookingItem);
+    const newItem = [...currentCookingCard, card];
+    setCurrentCookingCard(newItem);
   }
 
   return (
@@ -30,9 +43,10 @@ function App() {
         </div>
         <div className="flex gap-6">
           <MenuCards handleCook={handleCook}></MenuCards>
-          <SideBar></SideBar>
+          <SideBar cookingCard={cookingCard} handlePreparing={handlePreparing} currentCookingCard={currentCookingCard}></SideBar>
         </div>
       </main>
+      <ToastContainer />
     </>
   )
 }

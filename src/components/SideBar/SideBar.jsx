@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 
-const SideBar = ({}) => {
+const SideBar = ({cookingCard, handlePreparing, currentCookingCard}) => { 
     return (
         <div className='w-[40%]'>
             <div className='border shadow-lg p-6 rounded-2xl'>
-                <h3 className='text-center text-2xl font-semibold'>Want to cook: {}</h3>
+                <h3 className='text-center text-2xl font-semibold'>Want to cook: {cookingCard.length}</h3>
                 <div className='divider'></div>
                 <div className="overflow-x-auto mb-8">
                     <table className="table">
@@ -19,18 +19,20 @@ const SideBar = ({}) => {
                         </tr>
                         </thead>
                         <tbody>
-                        {/* row 1 */}
-                        <tr className="bg-base-200">
-                            <th>1</th>
-                            <td>Cy Ganderton</td>
-                            <td>Quality Control Specialist</td>
-                            <td>Blue</td>
-                            <td><button className='btn bg-[#0BE58A] rounded-full'>Preparing</button></td>
-                        </tr>
+                        {
+                            cookingCard.map((card, idx) => <tr key={idx} className="bg-base-200">
+                                <th>{idx + 1}</th>
+                                <td>{card.recipe_name}</td>
+                                <td>{card.preparing_time} minutes</td>
+                                <td>{card.calories} calories</td>
+                                <td><button className='btn bg-[#0BE58A] rounded-full'
+                                onClick={() => handlePreparing(card)}>Preparing</button></td>
+                            </tr>)
+                        }
                         </tbody>
                     </table>
                 </div>
-                <h3 className='text-center text-2xl font-semibold'>Currently cooking: {}</h3>
+                <h3 className='text-center text-2xl font-semibold'>Currently cooking: {currentCookingCard.length}</h3>
                 <div className='divider'></div>
                 <div className="overflow-x-auto mb-8">
                     <table className="table">
@@ -41,18 +43,17 @@ const SideBar = ({}) => {
                             <th>Name</th>
                             <th>Time</th>
                             <th>Calories</th>
-                            <th></th>
                         </tr>
                         </thead>
                         <tbody>
-                        {/* row 1 */}
-                        <tr className="bg-base-200">
-                            <th>1</th>
-                            <td>Cy Ganderton</td>
-                            <td>Quality Control Specialist</td>
-                            <td>Blue</td>
-                            <td><button className='btn bg-[#0BE58A] rounded-full'>Preparing</button></td>
-                        </tr>
+                         {
+                            currentCookingCard.map((card, idx) => <tr key={idx} className="bg-base-200">
+                                <th>{idx + 1}</th>
+                                <td>{card.recipe_name}</td>
+                                <td>{card.preparing_time} minutes</td>
+                                <td>{card.calories} calories</td>     
+                            </tr>)
+                         }
                         </tbody>
                     </table>
                 </div>
@@ -66,7 +67,9 @@ const SideBar = ({}) => {
 };
 
 SideBar.propTypes = {
-    
+    cookingCard: PropTypes.array.isRequired,
+    handlePreparing: PropTypes.func.isRequired,
+    currentCookingCard: PropTypes.array.isRequired
 };
 
 export default SideBar;
