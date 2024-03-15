@@ -2,7 +2,9 @@ import BG from '../../assets/bg.jpg'
 
 const Banner = () => {
     return (
-        <div className="bg-cover bg-no-repeat rounded-3xl brightness-[0.95]" style={{backgroundImage:`url(${BG})`}}>
+        <div style={{
+            borderRadius: '24px',
+            background: `linear-gradient(0deg, rgba(21, 11, 43, 0.90) 0%, rgba(21, 11, 43, 0.00) 100%), url(${BG}) lightgray 0px -18.896px / 100% 123.31% no-repeat`}}>
             <div className="w-[60%] mx-auto py-[130px] text-center text-white">
                 <h1 className="text-5xl font-bold mb-6">Discover an exceptional cooking class tailored for you!</h1>
                 <p>Explore personalized cooking classes designed just for you, offering an exceptional culinary experience tailored to your preferences!</p>
