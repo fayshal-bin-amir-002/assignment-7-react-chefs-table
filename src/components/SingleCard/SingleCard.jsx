@@ -7,7 +7,7 @@ const SingleCard = ({card, handleCook}) => {
     return (
         <div className="card bg-base-100 shadow-xl">
             <figure className="px-5 pt-5 lg:px-10 lg:pt-10 ">
-                <img src={recipe_image} alt="menu" className="rounded-xl max-w-[400px] min-w-[300px] max-h-[250px]" />
+                <img src={recipe_image} alt="menu" className="rounded-xl w-full max-h-[250px] " />
             </figure>
             <div className="p-8">
                 <h2 className="card-title text-xl lg:text-2xl mb-3">{recipe_name}</h2>
