@@ -58,8 +58,8 @@ const SideBar = ({cookingCard, handlePreparing, currentCookingCard}) => {
                     </table>
                 </div>
                 <div className='text-right space-y-2 mb-5 font-medium'>
-                    <p>Total Time = {}</p>
-                    <p>Total Calories = {}</p>
+                    <p>Total Time = {currentCookingCard.reduce((p, c) => c.preparing_time + p, 0)} minutes</p>
+                    <p>Total Calories = {currentCookingCard.reduce((p, c) => c.calories + p, 0)} calories</p>
                 </div>
             </div>
         </div>
