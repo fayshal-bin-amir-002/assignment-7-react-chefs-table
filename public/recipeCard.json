@@ -12,11 +12,7 @@
         "200 g basil leaves",
         "400 g mushrooms, sliced",
         "2 red chili peppers, chopped",
-        "4 cloves garlic, minced",
-        "3 tbsp vegetable oil",
-        "2 tbsp oyster sauce",
-        "1 tbsp fish sauce",
-        "1 tbsp brown sugar"
+        "4 cloves garlic, minced"
       ]
     },
     {
@@ -33,11 +29,7 @@
         "1 yellow bell pepper, sliced",
         "1 onion, thinly sliced",
         "200 g snow peas",
-        "4 cloves garlic, minced",
-        "3 tbsp soy sauce",
-        "2 tbsp oyster sauce",
-        "1 tbsp sesame oil",
-        "1 tbsp cornstarch"
+        "4 cloves garlic, minced"
       ]
     },
     {
@@ -52,10 +44,7 @@
         "4 cloves garlic, minced",
         "200 ml heavy cream",
         "100 g Parmesan cheese, grated",
-        "2 tbsp butter",
-        "1 tbsp olive oil",
-        "Salt and pepper to taste",
-        "Fresh parsley for garnish"
+        "2 tbsp butter"
       ]
     },
     {
@@ -71,8 +60,7 @@
         "4 cloves garlic, minced",
         "2 tbsp olive oil",
         "1 tbsp fresh thyme, chopped",
-        "1 tbsp fresh parsley, chopped",
-        "Salt and pepper to taste"
+        "1 tbsp fresh parsley, chopped"
       ]
     },
     {
@@ -88,17 +76,13 @@
         "2 cloves garlic, minced",
         "1 red bell pepper, diced",
         "1 carrot, diced",
-        "200 ml coconut milk",
-        "400 g canned diced tomatoes",
-        "2 tbsp curry powder",
-        "1 tbsp olive oil",
-        "Salt and pepper to taste"
+        "200 ml coconut milk"
       ]
     },
     {
       "recipe_name": "Refreshing Watermelon Salad",
       "recipe_id": "006",
-      "recipe_image": "https://i.postimg.cc/WzQJ4fND/shreyak-singh-q59r-Zv-Hk-Ea-E-unsplash.jpg",
+      "recipe_image": "https://i.postimg.cc/wM3M9Lnb/levi-meir-clancy-Yk6cts7r-Uy-A-unsplash.jpg",
       "description": "A light and refreshing salad featuring juicy watermelon, crisp cucumber, and tangy feta cheese.",
       "preparing_time": 10,
       "calories": 150,
@@ -107,9 +91,7 @@
         "1 cucumber, diced",
         "100 g feta cheese, crumbled",
         "Handful of fresh mint leaves, torn",
-        "2 tbsp balsamic vinegar",
-        "1 tbsp extra virgin olive oil",
-        "Salt and pepper to taste"
+        "2 tbsp balsamic vinegar"
       ]
     }
 ]  
