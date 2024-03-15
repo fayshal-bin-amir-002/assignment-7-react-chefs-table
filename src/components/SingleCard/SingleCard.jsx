@@ -7,20 +7,20 @@ const SingleCard = ({card, handleCook}) => {
     return (
         <div className="card bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
-                <img src={recipe_image} alt="Shoes" className="rounded-xl" />
+                <img src={recipe_image} alt="menu" className="rounded-xl w-[400px] h-[250px]" />
             </figure>
-            <div className="card-body">
-                <h2 className="card-title">{recipe_name}</h2>
+            <div className="p-8">
+                <h2 className="card-title text-2xl mb-3">{recipe_name}</h2>
                 <p>{description}</p>
-                <div className='divider'></div>
+                <div className='divider my-1'></div>
                 <h3 className='text-lg font-medium'>Ingredients: {ingredients.length}</h3>
                 <ul className='list-disc ms-4 opacity-60'>
                     {
                         ingredients.map((i, idx) => <li key={idx}>{i}</li>)
                     }
                 </ul>
-                <div className='divider'></div>
-                <div className='flex items-center gap-10 mb-6'>
+                <div className='divider my-1'></div>
+                <div className='flex items-center gap-10 mb-4'>
                     <p className='flex items-center gap-3'><IoMdTime /> <span>{preparing_time} minutes</span></p>
                     <p className='flex items-center gap-3'><FaFireAlt /> <span>{calories} calories</span></p>
                 </div>
