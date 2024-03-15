@@ -1,0 +1,115 @@
+[
+    {
+      "recipe_name": "Spicy Thai Basil Chicken",
+      "recipe_id": "001",
+      "recipe_image": "https://i.postimg.cc/7htHmCGS/suradeach-saetang-cki7jj-Q5u-K4-unsplash.jpg",
+      "description": "A delicious and aromatic Thai dish featuring tender chicken cooked in a spicy basil sauce.",
+      "preparing_time": 30,
+      "calories": 400,
+      "ingredients": [
+        "550 g chicken breast, thinly sliced",
+        "120 ml soy sauce",
+        "200 g basil leaves",
+        "400 g mushrooms, sliced",
+        "2 red chili peppers, chopped",
+        "4 cloves garlic, minced",
+        "3 tbsp vegetable oil",
+        "2 tbsp oyster sauce",
+        "1 tbsp fish sauce",
+        "1 tbsp brown sugar"
+      ]
+    },
+    {
+      "recipe_name": "Mouthwatering Beef Stir Fry",
+      "recipe_id": "002",
+      "recipe_image": "https://i.postimg.cc/y8tT2v4b/tyson-a-Eoyr-D0-Aa-Gk-unsplash.jpg",
+      "description": "A quick and flavorful stir-fry featuring tender beef, colorful vegetables, and a savory sauce.",
+      "preparing_time": 25,
+      "calories": 350,
+      "ingredients": [
+        "500 g beef sirloin, thinly sliced",
+        "1 red bell pepper, sliced",
+        "1 green bell pepper, sliced",
+        "1 yellow bell pepper, sliced",
+        "1 onion, thinly sliced",
+        "200 g snow peas",
+        "4 cloves garlic, minced",
+        "3 tbsp soy sauce",
+        "2 tbsp oyster sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp cornstarch"
+      ]
+    },
+    {
+      "recipe_name": "Creamy Garlic Parmesan Pasta",
+      "recipe_id": "003",
+      "recipe_image": "https://i.postimg.cc/4ddNtbnX/eaters-collective-dd-ZYOt-ZUn-Bk-unsplash.jpg",
+      "description": "A comforting pasta dish featuring al dente spaghetti tossed in a creamy garlic Parmesan sauce.",
+      "preparing_time": 20,
+      "calories": 450,
+      "ingredients": [
+        "400 g spaghetti",
+        "4 cloves garlic, minced",
+        "200 ml heavy cream",
+        "100 g Parmesan cheese, grated",
+        "2 tbsp butter",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ]
+    },
+    {
+      "recipe_name": "Zesty Lemon Herb Salmon",
+      "recipe_id": "004",
+      "recipe_image": "https://i.postimg.cc/TP2CVpxR/lars-blankers-rc-HDm-SFdr7-Q-unsplash.jpg",
+      "description": "A light and flavorful salmon dish infused with zesty lemon and fragrant herbs.",
+      "preparing_time": 15,
+      "calories": 300,
+      "ingredients": [
+        "4 salmon fillets (about 150 g each)",
+        "2 lemons, sliced",
+        "4 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "1 tbsp fresh thyme, chopped",
+        "1 tbsp fresh parsley, chopped",
+        "Salt and pepper to taste"
+      ]
+    },
+    {
+      "recipe_name": "Vegetarian Chickpea Curry",
+      "recipe_id": "005",
+      "recipe_image": "https://i.postimg.cc/05JRMHZV/christina-rumpf-g-UU4-MF87-Ipw-unsplash.jpg",
+      "description": "A hearty and nutritious curry featuring tender chickpeas simmered in a fragrant spice-infused sauce.",
+      "preparing_time": 40,
+      "calories": 320,
+      "ingredients": [
+        "400 g canned chickpeas, drained and rinsed",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "1 red bell pepper, diced",
+        "1 carrot, diced",
+        "200 ml coconut milk",
+        "400 g canned diced tomatoes",
+        "2 tbsp curry powder",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste"
+      ]
+    },
+    {
+      "recipe_name": "Refreshing Watermelon Salad",
+      "recipe_id": "006",
+      "recipe_image": "https://i.postimg.cc/WzQJ4fND/shreyak-singh-q59r-Zv-Hk-Ea-E-unsplash.jpg",
+      "description": "A light and refreshing salad featuring juicy watermelon, crisp cucumber, and tangy feta cheese.",
+      "preparing_time": 10,
+      "calories": 150,
+      "ingredients": [
+        "500 g watermelon, cubed",
+        "1 cucumber, diced",
+        "100 g feta cheese, crumbled",
+        "Handful of fresh mint leaves, torn",
+        "2 tbsp balsamic vinegar",
+        "1 tbsp extra virgin olive oil",
+        "Salt and pepper to taste"
+      ]
+    }
+]  
